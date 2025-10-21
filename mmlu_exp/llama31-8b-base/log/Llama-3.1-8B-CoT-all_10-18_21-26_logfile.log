@@ -1,0 +1,129 @@
+2025-10-18 21:26:48,428 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 21:26:48,700 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 21:26:48,917 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 21:26:49,122 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 21:26:49,337 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B/tree/main?recursive=True&expand=False HTTP/1.1" 200 3136
+2025-10-18 21:26:49,910 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B/tree/main?recursive=True&expand=False HTTP/1.1" 200 3136
+2025-10-18 21:26:50,120 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/preprocessor_config.json HTTP/1.1" 404 0
+2025-10-18 21:26:50,430 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 21:26:50,632 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 21:26:51,146 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-10-18 21:26:53,384 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 21:26:53,646 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B HTTP/1.1" 200 18487
+2025-10-18 21:26:53,957 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B/tree/main?recursive=False&expand=False HTTP/1.1" 200 2408
+2025-10-18 21:26:53,959 DEBUG Attempting to acquire lock 130662216098512 on /tmp/b917c1a885ee97eb1dacbb5da60eeba26beca6765ebaea1f26e0ff320f1bd83dmeta-llama-Llama-3.1-8B.lock
+2025-10-18 21:26:53,960 DEBUG Lock 130662216098512 acquired on /tmp/b917c1a885ee97eb1dacbb5da60eeba26beca6765ebaea1f26e0ff320f1bd83dmeta-llama-Llama-3.1-8B.lock
+2025-10-18 21:26:54,186 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B/revision/main HTTP/1.1" 200 18487
+2025-10-18 21:26:54,192 DEBUG Attempting to release lock 130662216098512 on /tmp/b917c1a885ee97eb1dacbb5da60eeba26beca6765ebaea1f26e0ff320f1bd83dmeta-llama-Llama-3.1-8B.lock
+2025-10-18 21:26:54,192 DEBUG Lock 130662216098512 released on /tmp/b917c1a885ee97eb1dacbb5da60eeba26beca6765ebaea1f26e0ff320f1bd83dmeta-llama-Llama-3.1-8B.lock
+2025-10-18 21:26:54,192 DEBUG Attempting to acquire lock 130658911717904 on /tmp/b917c1a885ee97eb1dacbb5da60eeba26beca6765ebaea1f26e0ff320f1bd83dmeta-llama-Llama-3.1-8B.lock
+2025-10-18 21:26:54,193 DEBUG Lock 130658911717904 acquired on /tmp/b917c1a885ee97eb1dacbb5da60eeba26beca6765ebaea1f26e0ff320f1bd83dmeta-llama-Llama-3.1-8B.lock
+2025-10-18 21:26:54,328 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2025-10-18 21:26:54,394 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/model.safetensors.index.json HTTP/1.1" 200 0
+2025-10-18 21:26:54,396 DEBUG Attempting to release lock 130658911717904 on /tmp/b917c1a885ee97eb1dacbb5da60eeba26beca6765ebaea1f26e0ff320f1bd83dmeta-llama-Llama-3.1-8B.lock
+2025-10-18 21:26:54,396 DEBUG Lock 130658911717904 released on /tmp/b917c1a885ee97eb1dacbb5da60eeba26beca6765ebaea1f26e0ff320f1bd83dmeta-llama-Llama-3.1-8B.lock
+2025-10-18 21:26:54,672 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 21:27:08,390 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 21:27:08,599 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 21:27:09,503 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 21:27:09,712 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 21:27:10,430 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-18 21:27:10,438 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/datasets/TIGER-Lab/MMLU-Pro/9126953e3e196ff1073499437322f9e2c51ed79a/README.md HTTP/1.1" 200 0
+2025-10-18 21:27:10,646 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/MMLU-Pro.py HTTP/1.1" 404 0
+2025-10-18 21:27:10,649 DEBUG Starting new HTTPS connection (1): s3.amazonaws.com:443
+2025-10-18 21:27:11,314 DEBUG https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/TIGER-Lab/MMLU-Pro/TIGER-Lab/MMLU-Pro.py HTTP/1.1" 404 0
+2025-10-18 21:27:11,530 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/9126953e3e196ff1073499437322f9e2c51ed79a HTTP/1.1" 200 2323
+2025-10-18 21:27:11,734 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/.huggingface.yaml HTTP/1.1" 404 0
+2025-10-18 21:27:11,736 DEBUG Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+2025-10-18 21:27:11,979 DEBUG https://datasets-server.huggingface.co:443 "GET /info?dataset=TIGER-Lab/MMLU-Pro HTTP/1.1" 200 None
+2025-10-18 21:27:12,178 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/9126953e3e196ff1073499437322f9e2c51ed79a HTTP/1.1" 200 2323
+2025-10-18 21:27:12,384 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/9126953e3e196ff1073499437322f9e2c51ed79a/data?recursive=True&expand=False HTTP/1.1" 200 629
+2025-10-18 21:27:12,595 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/9126953e3e196ff1073499437322f9e2c51ed79a?recursive=False&expand=False HTTP/1.1" 200 492
+2025-10-18 21:27:12,805 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_infos.json HTTP/1.1" 404 0
+2025-10-18 21:27:12,808 DEBUG Attempting to acquire lock 130658909978448 on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 21:27:12,809 DEBUG Lock 130658909978448 acquired on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 21:27:12,809 DEBUG open file: /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_info.json
+2025-10-18 21:27:12,809 DEBUG Attempting to release lock 130658909978448 on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 21:27:12,809 DEBUG Lock 130658909978448 released on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 21:27:12,834 DEBUG Attempting to acquire lock 130658896194512 on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 21:27:12,834 DEBUG Lock 130658896194512 acquired on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 21:27:12,834 DEBUG open file: /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_info.json
+2025-10-18 21:27:12,835 DEBUG Attempting to release lock 130658896194512 on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 21:27:12,835 DEBUG Lock 130658896194512 released on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 21:27:13,749 INFO selected subjects:
+business
+law
+psychology
+biology
+chemistry
+history
+other
+health
+economics
+math
+physics
+computer science
+philosophy
+engineering
+2025-10-18 21:27:13,750 INFO evaluating biology
+2025-10-18 21:29:00,163 INFO 717size batch costing time: 104.98696637153625
+2025-10-18 21:29:16,840 INFO this batch accu is: 0.5704323570432357, corr: 409.0, wrong: 308.0
+
+2025-10-18 21:29:16,847 INFO evaluating business
+2025-10-18 21:30:51,467 INFO 789size batch costing time: 93.4242947101593
+2025-10-18 21:31:01,321 INFO this batch accu is: 0.320659062103929, corr: 253.0, wrong: 536.0
+
+2025-10-18 21:31:01,326 INFO evaluating chemistry
+2025-10-18 21:34:54,939 INFO 1132size batch costing time: 231.4013547897339
+2025-10-18 21:35:25,618 INFO this batch accu is: 0.2508833922261484, corr: 284.0, wrong: 848.0
+
+2025-10-18 21:35:25,628 INFO evaluating computer science
+2025-10-18 21:36:52,177 INFO 410size batch costing time: 85.65019965171814
+2025-10-18 21:36:54,676 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 21:36:55,040 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 21:36:59,220 INFO this batch accu is: 0.3804878048780488, corr: 156.0, wrong: 254.0
+
+2025-10-18 21:36:59,224 INFO evaluating economics
+2025-10-18 21:38:37,879 INFO 844size batch costing time: 97.09955406188965
+2025-10-18 21:38:52,711 INFO this batch accu is: 0.4549763033175355, corr: 384.0, wrong: 460.0
+
+2025-10-18 21:38:52,718 INFO evaluating engineering
+2025-10-18 21:41:10,590 INFO 969size batch costing time: 136.19304275512695
+2025-10-18 21:41:19,758 INFO this batch accu is: 0.28276573787409703, corr: 274.0, wrong: 695.0
+
+2025-10-18 21:41:19,766 INFO evaluating health
+2025-10-18 21:42:43,393 INFO 818size batch costing time: 82.22822499275208
+2025-10-18 21:42:53,436 INFO this batch accu is: 0.45843520782396086, corr: 375.0, wrong: 443.0
+
+2025-10-18 21:42:53,441 INFO evaluating history
+2025-10-18 21:43:56,090 INFO 381size batch costing time: 60.304141998291016
+2025-10-18 21:43:57,545 INFO this batch accu is: 0.4251968503937008, corr: 162.0, wrong: 219.0
+
+2025-10-18 21:43:57,549 INFO evaluating law
+2025-10-18 21:45:58,832 INFO 1101size batch costing time: 118.71906280517578
+2025-10-18 21:46:13,368 INFO this batch accu is: 0.2161671207992734, corr: 238.0, wrong: 863.0
+
+2025-10-18 21:46:13,378 INFO evaluating math
+2025-10-18 21:46:55,044 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 21:46:55,397 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 21:50:50,941 INFO 1351size batch costing time: 274.4973216056824
+2025-10-18 21:51:13,555 INFO this batch accu is: 0.3404885270170244, corr: 460.0, wrong: 891.0
+
+2025-10-18 21:51:13,565 INFO evaluating other
+2025-10-18 21:52:19,497 INFO 924size batch costing time: 64.61450743675232
+2025-10-18 21:52:21,146 INFO this batch accu is: 0.4318181818181818, corr: 399.0, wrong: 525.0
+
+2025-10-18 21:52:21,150 INFO evaluating philosophy
+2025-10-18 21:53:25,615 INFO 499size batch costing time: 63.72909927368164
+2025-10-18 21:53:29,234 INFO this batch accu is: 0.40080160320641284, corr: 200.0, wrong: 299.0
+
+2025-10-18 21:53:29,238 INFO evaluating physics
+2025-10-18 21:55:44,583 INFO 1299size batch costing time: 133.1101303100586
+2025-10-18 21:56:05,614 INFO this batch accu is: 0.31947652040030794, corr: 415.0, wrong: 884.0
+
+2025-10-18 21:56:05,622 INFO evaluating psychology
+2025-10-18 21:56:55,401 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 21:56:55,752 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 21:57:10,949 INFO 798size batch costing time: 63.94375443458557
+2025-10-18 21:57:11,769 INFO this batch accu is: 0.5388471177944862, corr: 430.0, wrong: 368.0
+

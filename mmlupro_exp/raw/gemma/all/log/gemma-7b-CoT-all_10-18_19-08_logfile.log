@@ -1,0 +1,207 @@
+2025-10-18 19:08:17,903 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 19:08:18,232 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 19:08:18,235 DEBUG Attempting to acquire lock 128641114584592 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/6f50d29d5d0b3ef74c0b2cef91176415d6945a7f.lock
+2025-10-18 19:08:18,235 DEBUG Lock 128641114584592 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/6f50d29d5d0b3ef74c0b2cef91176415d6945a7f.lock
+2025-10-18 19:08:18,438 DEBUG https://huggingface.co:443 "GET /google/gemma-7b/resolve/main/config.json HTTP/1.1" 200 629
+2025-10-18 19:08:18,441 DEBUG Attempting to release lock 128641114584592 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/6f50d29d5d0b3ef74c0b2cef91176415d6945a7f.lock
+2025-10-18 19:08:18,441 DEBUG Lock 128641114584592 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/6f50d29d5d0b3ef74c0b2cef91176415d6945a7f.lock
+2025-10-18 19:08:18,656 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 19:08:18,862 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 19:08:19,080 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/tree/main?recursive=True&expand=False HTTP/1.1" 200 3354
+2025-10-18 19:08:19,295 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/tree/main?recursive=True&expand=False HTTP/1.1" 200 3354
+2025-10-18 19:08:19,508 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/preprocessor_config.json HTTP/1.1" 404 0
+2025-10-18 19:08:25,121 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 19:08:25,123 DEBUG Attempting to acquire lock 128640978853008 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/f23acead1a712a3017d73e25881ac441c71f45ce.lock
+2025-10-18 19:08:25,123 DEBUG Lock 128640978853008 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/f23acead1a712a3017d73e25881ac441c71f45ce.lock
+2025-10-18 19:08:25,334 DEBUG https://huggingface.co:443 "GET /google/gemma-7b/resolve/main/tokenizer_config.json HTTP/1.1" 200 33556
+2025-10-18 19:08:25,337 DEBUG Attempting to release lock 128640978853008 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/f23acead1a712a3017d73e25881ac441c71f45ce.lock
+2025-10-18 19:08:25,337 DEBUG Lock 128640978853008 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/f23acead1a712a3017d73e25881ac441c71f45ce.lock
+2025-10-18 19:08:25,537 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 19:08:25,762 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/tokenizer.model HTTP/1.1" 302 0
+2025-10-18 19:08:25,765 DEBUG Attempting to acquire lock 128640933941136 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2.lock
+2025-10-18 19:08:25,765 DEBUG Lock 128640933941136 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2.lock
+2025-10-18 19:08:25,981 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/xet-read-token/ff6768d9368919a1f025a54f9f5aa0ee591730bb HTTP/1.1" 200 379
+2025-10-18 19:08:27,201 DEBUG Attempting to release lock 128640933941136 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2.lock
+2025-10-18 19:08:27,201 DEBUG Lock 128640933941136 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2.lock
+2025-10-18 19:08:27,437 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/tokenizer.json HTTP/1.1" 302 0
+2025-10-18 19:08:27,438 DEBUG Attempting to acquire lock 128640934331024 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/c15eb04bc5ad609fb26533e8525302c5640a945e5f67f65b7c849900acda7d99.lock
+2025-10-18 19:08:27,438 DEBUG Lock 128640934331024 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/c15eb04bc5ad609fb26533e8525302c5640a945e5f67f65b7c849900acda7d99.lock
+2025-10-18 19:08:27,642 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/xet-read-token/ff6768d9368919a1f025a54f9f5aa0ee591730bb HTTP/1.1" 200 379
+2025-10-18 19:08:30,075 DEBUG Attempting to release lock 128640934331024 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/c15eb04bc5ad609fb26533e8525302c5640a945e5f67f65b7c849900acda7d99.lock
+2025-10-18 19:08:30,075 DEBUG Lock 128640934331024 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/c15eb04bc5ad609fb26533e8525302c5640a945e5f67f65b7c849900acda7d99.lock
+2025-10-18 19:08:30,292 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2025-10-18 19:08:30,494 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2025-10-18 19:08:30,496 DEBUG Attempting to acquire lock 128640934333712 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/8d6368f7e735fbe4781bf6e956b7c6ad0586df80.lock
+2025-10-18 19:08:30,496 DEBUG Lock 128640934333712 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/8d6368f7e735fbe4781bf6e956b7c6ad0586df80.lock
+2025-10-18 19:08:30,707 DEBUG https://huggingface.co:443 "GET /google/gemma-7b/resolve/main/special_tokens_map.json HTTP/1.1" 200 636
+2025-10-18 19:08:30,709 DEBUG Attempting to release lock 128640934333712 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/8d6368f7e735fbe4781bf6e956b7c6ad0586df80.lock
+2025-10-18 19:08:30,709 DEBUG Lock 128640934333712 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/8d6368f7e735fbe4781bf6e956b7c6ad0586df80.lock
+2025-10-18 19:08:30,918 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/chat_template.jinja HTTP/1.1" 404 0
+2025-10-18 19:08:32,174 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-10-18 19:08:32,176 DEBUG Attempting to acquire lock 128640934336656 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/fb47c6d9115ff49c891f9b4b495a86bfd5b0dc73.lock
+2025-10-18 19:08:32,176 DEBUG Lock 128640934336656 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/fb47c6d9115ff49c891f9b4b495a86bfd5b0dc73.lock
+2025-10-18 19:08:32,387 DEBUG https://huggingface.co:443 "GET /google/gemma-7b/resolve/main/generation_config.json HTTP/1.1" 200 137
+2025-10-18 19:08:32,390 DEBUG Attempting to release lock 128640934336656 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/fb47c6d9115ff49c891f9b4b495a86bfd5b0dc73.lock
+2025-10-18 19:08:32,390 DEBUG Lock 128640934336656 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/fb47c6d9115ff49c891f9b4b495a86bfd5b0dc73.lock
+2025-10-18 19:08:33,702 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 19:08:34,287 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b HTTP/1.1" 200 5621
+2025-10-18 19:08:34,493 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/tree/main?recursive=False&expand=False HTTP/1.1" 200 3006
+2025-10-18 19:08:34,495 DEBUG Attempting to acquire lock 128644399655184 on /tmp/0d215f07086f1974729cc7a0deb3a4f604724a39555e9b38494b0853139fa138google-gemma-7b.lock
+2025-10-18 19:08:34,496 DEBUG Lock 128644399655184 acquired on /tmp/0d215f07086f1974729cc7a0deb3a4f604724a39555e9b38494b0853139fa138google-gemma-7b.lock
+2025-10-18 19:08:34,695 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/revision/main HTTP/1.1" 200 5621
+2025-10-18 19:08:34,702 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 19:08:34,704 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 19:08:34,705 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 19:08:34,707 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 19:08:34,727 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2025-10-18 19:08:35,057 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/ff6768d9368919a1f025a54f9f5aa0ee591730bb/model-00001-of-00004.safetensors HTTP/1.1" 302 0
+2025-10-18 19:08:35,059 DEBUG Attempting to acquire lock 128644368678736 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/632edaf7993dd73b33287cc34e0de0ed48c04a54834198fac5f2f78ff47e62c9.lock
+2025-10-18 19:08:35,059 DEBUG Lock 128644368678736 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/632edaf7993dd73b33287cc34e0de0ed48c04a54834198fac5f2f78ff47e62c9.lock
+2025-10-18 19:08:35,074 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/ff6768d9368919a1f025a54f9f5aa0ee591730bb/model-00002-of-00004.safetensors HTTP/1.1" 302 0
+2025-10-18 19:08:35,075 DEBUG Attempting to acquire lock 128644368860880 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/b9b0278bd4e203c50d4a1b2a29bd6061b19c48abc77f338a4de2f0dd4fba0fac.lock
+2025-10-18 19:08:35,076 DEBUG Lock 128644368860880 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/b9b0278bd4e203c50d4a1b2a29bd6061b19c48abc77f338a4de2f0dd4fba0fac.lock
+2025-10-18 19:08:35,078 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/ff6768d9368919a1f025a54f9f5aa0ee591730bb/model-00003-of-00004.safetensors HTTP/1.1" 302 0
+2025-10-18 19:08:35,080 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/ff6768d9368919a1f025a54f9f5aa0ee591730bb/model-00004-of-00004.safetensors HTTP/1.1" 302 0
+2025-10-18 19:08:35,082 DEBUG Attempting to acquire lock 128644368875408 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/69dcacd38561f42064c81a0d8ebfd97d8a393d22e40fea327fc6c9a14205768c.lock
+2025-10-18 19:08:35,082 DEBUG Attempting to acquire lock 128644368874192 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/1ddee49e12c7ec4ffb8ff6359a727a798ded9d6176da4bad30833f24426cb92f.lock
+2025-10-18 19:08:35,082 DEBUG Lock 128644368875408 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/69dcacd38561f42064c81a0d8ebfd97d8a393d22e40fea327fc6c9a14205768c.lock
+2025-10-18 19:08:35,100 DEBUG Lock 128644368874192 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/1ddee49e12c7ec4ffb8ff6359a727a798ded9d6176da4bad30833f24426cb92f.lock
+2025-10-18 19:08:35,142 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 19:08:35,261 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/xet-read-token/ff6768d9368919a1f025a54f9f5aa0ee591730bb HTTP/1.1" 200 379
+2025-10-18 19:08:35,284 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/xet-read-token/ff6768d9368919a1f025a54f9f5aa0ee591730bb HTTP/1.1" 200 379
+2025-10-18 19:08:35,287 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/xet-read-token/ff6768d9368919a1f025a54f9f5aa0ee591730bb HTTP/1.1" 200 379
+2025-10-18 19:08:35,305 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/xet-read-token/ff6768d9368919a1f025a54f9f5aa0ee591730bb HTTP/1.1" 200 379
+2025-10-18 19:09:37,516 DEBUG Attempting to release lock 128644368874192 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/1ddee49e12c7ec4ffb8ff6359a727a798ded9d6176da4bad30833f24426cb92f.lock
+2025-10-18 19:09:37,516 DEBUG Lock 128644368874192 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/1ddee49e12c7ec4ffb8ff6359a727a798ded9d6176da4bad30833f24426cb92f.lock
+2025-10-18 19:10:40,047 DEBUG Attempting to release lock 128644368875408 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/69dcacd38561f42064c81a0d8ebfd97d8a393d22e40fea327fc6c9a14205768c.lock
+2025-10-18 19:10:40,047 DEBUG Lock 128644368875408 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/69dcacd38561f42064c81a0d8ebfd97d8a393d22e40fea327fc6c9a14205768c.lock
+2025-10-18 19:10:41,266 DEBUG Attempting to release lock 128644368678736 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/632edaf7993dd73b33287cc34e0de0ed48c04a54834198fac5f2f78ff47e62c9.lock
+2025-10-18 19:10:41,267 DEBUG Lock 128644368678736 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/632edaf7993dd73b33287cc34e0de0ed48c04a54834198fac5f2f78ff47e62c9.lock
+2025-10-18 19:10:43,147 DEBUG Attempting to release lock 128644368860880 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/b9b0278bd4e203c50d4a1b2a29bd6061b19c48abc77f338a4de2f0dd4fba0fac.lock
+2025-10-18 19:10:43,147 DEBUG Lock 128644368860880 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/b9b0278bd4e203c50d4a1b2a29bd6061b19c48abc77f338a4de2f0dd4fba0fac.lock
+2025-10-18 19:10:43,150 DEBUG Attempting to release lock 128644399655184 on /tmp/0d215f07086f1974729cc7a0deb3a4f604724a39555e9b38494b0853139fa138google-gemma-7b.lock
+2025-10-18 19:10:43,150 DEBUG Lock 128644399655184 released on /tmp/0d215f07086f1974729cc7a0deb3a4f604724a39555e9b38494b0853139fa138google-gemma-7b.lock
+2025-10-18 19:10:43,151 DEBUG Attempting to acquire lock 128644369199376 on /tmp/0d215f07086f1974729cc7a0deb3a4f604724a39555e9b38494b0853139fa138google-gemma-7b.lock
+2025-10-18 19:10:43,151 DEBUG Lock 128644369199376 acquired on /tmp/0d215f07086f1974729cc7a0deb3a4f604724a39555e9b38494b0853139fa138google-gemma-7b.lock
+2025-10-18 19:10:43,359 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/model.safetensors.index.json HTTP/1.1" 200 0
+2025-10-18 19:10:43,360 DEBUG Attempting to acquire lock 128644395321232 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/ea169ac914496258756cea0b85ee33f93eb43707.lock
+2025-10-18 19:10:43,361 DEBUG Lock 128644395321232 acquired on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/ea169ac914496258756cea0b85ee33f93eb43707.lock
+2025-10-18 19:10:43,570 DEBUG https://huggingface.co:443 "GET /google/gemma-7b/resolve/main/model.safetensors.index.json HTTP/1.1" 200 20920
+2025-10-18 19:10:43,572 DEBUG Attempting to release lock 128644395321232 on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/ea169ac914496258756cea0b85ee33f93eb43707.lock
+2025-10-18 19:10:43,572 DEBUG Lock 128644395321232 released on /home/user24/.cache/huggingface/hub/.locks/models--google--gemma-7b/ea169ac914496258756cea0b85ee33f93eb43707.lock
+2025-10-18 19:10:43,572 DEBUG Attempting to release lock 128644369199376 on /tmp/0d215f07086f1974729cc7a0deb3a4f604724a39555e9b38494b0853139fa138google-gemma-7b.lock
+2025-10-18 19:10:43,572 DEBUG Lock 128644369199376 released on /tmp/0d215f07086f1974729cc7a0deb3a4f604724a39555e9b38494b0853139fa138google-gemma-7b.lock
+2025-10-18 19:11:14,871 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 19:11:15,087 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 19:11:16,373 DEBUG https://huggingface.co:443 "HEAD /google/gemma-7b/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 19:11:16,579 DEBUG https://huggingface.co:443 "GET /api/models/google/gemma-7b/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 19:11:17,597 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-18 19:11:17,605 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/datasets/TIGER-Lab/MMLU-Pro/9126953e3e196ff1073499437322f9e2c51ed79a/README.md HTTP/1.1" 200 0
+2025-10-18 19:11:17,807 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/MMLU-Pro.py HTTP/1.1" 404 0
+2025-10-18 19:11:17,809 DEBUG Starting new HTTPS connection (1): s3.amazonaws.com:443
+2025-10-18 19:11:18,415 DEBUG https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/TIGER-Lab/MMLU-Pro/TIGER-Lab/MMLU-Pro.py HTTP/1.1" 404 0
+2025-10-18 19:11:18,620 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/9126953e3e196ff1073499437322f9e2c51ed79a HTTP/1.1" 200 2323
+2025-10-18 19:11:19,199 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/.huggingface.yaml HTTP/1.1" 404 0
+2025-10-18 19:11:19,203 DEBUG Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+2025-10-18 19:11:19,510 DEBUG https://datasets-server.huggingface.co:443 "GET /info?dataset=TIGER-Lab/MMLU-Pro HTTP/1.1" 200 None
+2025-10-18 19:11:19,715 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/9126953e3e196ff1073499437322f9e2c51ed79a HTTP/1.1" 200 2323
+2025-10-18 19:11:19,929 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/9126953e3e196ff1073499437322f9e2c51ed79a/data?recursive=True&expand=False HTTP/1.1" 200 629
+2025-10-18 19:11:20,152 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/9126953e3e196ff1073499437322f9e2c51ed79a?recursive=False&expand=False HTTP/1.1" 200 492
+2025-10-18 19:11:20,365 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_infos.json HTTP/1.1" 404 0
+2025-10-18 19:11:20,368 DEBUG Attempting to acquire lock 128638334923664 on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 19:11:20,368 DEBUG Lock 128638334923664 acquired on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 19:11:20,368 DEBUG open file: /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_info.json
+2025-10-18 19:11:20,369 DEBUG Attempting to release lock 128638334923664 on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 19:11:20,369 DEBUG Lock 128638334923664 released on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 19:11:20,385 DEBUG Attempting to acquire lock 128638335035216 on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 19:11:20,385 DEBUG Lock 128638335035216 acquired on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 19:11:20,385 DEBUG open file: /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_info.json
+2025-10-18 19:11:20,385 DEBUG Attempting to release lock 128638335035216 on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 19:11:20,385 DEBUG Lock 128638335035216 released on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 19:11:20,779 INFO selected subjects:
+business
+law
+psychology
+biology
+chemistry
+history
+other
+health
+economics
+math
+physics
+computer science
+philosophy
+engineering
+2025-10-18 19:11:20,779 INFO evaluating biology
+2025-10-18 19:17:17,974 INFO 717size batch costing time: 355.8214955329895
+2025-10-18 19:17:47,816 INFO this batch accu is: 0.5383542538354253, corr: 386.0, wrong: 331.0
+
+2025-10-18 19:17:47,824 INFO evaluating business
+2025-10-18 19:18:35,147 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 19:18:35,498 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 19:24:43,479 INFO 789size batch costing time: 414.542920589447
+2025-10-18 19:25:08,364 INFO this batch accu is: 0.3650190114068441, corr: 288.0, wrong: 501.0
+
+2025-10-18 19:25:08,372 INFO evaluating chemistry
+2025-10-18 19:28:35,503 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 19:28:35,852 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 19:38:35,857 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 19:38:36,201 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 19:39:13,769 INFO 1132size batch costing time: 843.367552280426
+2025-10-18 19:39:56,400 INFO this batch accu is: 0.2862190812720848, corr: 324.0, wrong: 808.0
+
+2025-10-18 19:39:56,411 INFO evaluating computer science
+2025-10-18 19:42:51,707 INFO 410size batch costing time: 174.3782410621643
+2025-10-18 19:42:55,232 INFO this batch accu is: 0.35365853658536583, corr: 145.0, wrong: 265.0
+
+2025-10-18 19:42:55,237 INFO evaluating economics
+2025-10-18 19:46:47,185 INFO 844size batch costing time: 230.42116618156433
+2025-10-18 19:47:06,926 INFO this batch accu is: 0.43601895734597157, corr: 368.0, wrong: 476.0
+
+2025-10-18 19:47:06,933 INFO evaluating engineering
+2025-10-18 19:48:36,205 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 19:48:36,592 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 19:55:16,537 INFO 969size batch costing time: 488.0714008808136
+2025-10-18 19:55:35,307 INFO this batch accu is: 0.23219814241486067, corr: 225.0, wrong: 744.0
+
+2025-10-18 19:55:35,316 INFO evaluating health
+2025-10-18 19:57:28,655 INFO 818size batch costing time: 111.97588920593262
+2025-10-18 19:57:34,853 INFO this batch accu is: 0.37163814180929094, corr: 304.0, wrong: 514.0
+
+2025-10-18 19:57:34,858 INFO evaluating history
+2025-10-18 19:58:36,595 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 19:58:36,939 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 19:59:21,266 INFO 381size batch costing time: 103.80560207366943
+2025-10-18 19:59:26,175 INFO this batch accu is: 0.3674540682414698, corr: 140.0, wrong: 241.0
+
+2025-10-18 19:59:26,179 INFO evaluating law
+2025-10-18 20:04:07,866 INFO 1101size batch costing time: 279.0766499042511
+2025-10-18 20:04:27,276 INFO this batch accu is: 0.20072661217075385, corr: 221.0, wrong: 880.0
+
+2025-10-18 20:04:27,286 INFO evaluating math
+2025-10-18 20:08:36,942 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 20:08:37,305 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 20:18:37,310 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 20:18:37,663 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 20:18:52,339 INFO 1351size batch costing time: 862.3578116893768
+2025-10-18 20:19:11,839 INFO this batch accu is: 0.32272390821613617, corr: 436.0, wrong: 915.0
+
+2025-10-18 20:19:11,847 INFO evaluating other
+2025-10-18 20:20:54,596 INFO 924size batch costing time: 101.44621348381042
+2025-10-18 20:21:02,436 INFO this batch accu is: 0.42424242424242425, corr: 392.0, wrong: 532.0
+
+2025-10-18 20:21:02,443 INFO evaluating philosophy
+2025-10-18 20:22:40,783 INFO 499size batch costing time: 97.60459017753601
+2025-10-18 20:22:42,794 INFO this batch accu is: 0.39478957915831664, corr: 197.0, wrong: 302.0
+
+2025-10-18 20:22:42,799 INFO evaluating physics
+2025-10-18 20:28:37,667 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-10-18 20:28:38,010 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 20:28:40,397 INFO 1299size batch costing time: 355.45233273506165
+2025-10-18 20:28:58,171 INFO this batch accu is: 0.28868360277136257, corr: 375.0, wrong: 924.0
+
+2025-10-18 20:28:58,180 INFO evaluating psychology
+2025-10-18 20:30:23,619 INFO 798size batch costing time: 83.95284533500671
+2025-10-18 20:30:25,113 INFO this batch accu is: 0.5213032581453634, corr: 416.0, wrong: 382.0
+

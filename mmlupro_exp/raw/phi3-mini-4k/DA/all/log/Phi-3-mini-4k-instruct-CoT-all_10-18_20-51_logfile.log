@@ -1,0 +1,115 @@
+2025-10-18 20:51:06,669 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 20:51:06,900 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-18 20:51:06,909 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/config.json HTTP/1.1" 200 0
+2025-10-18 20:51:07,110 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-18 20:51:07,118 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/config.json HTTP/1.1" 200 0
+2025-10-18 20:51:07,317 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-18 20:51:07,323 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/config.json HTTP/1.1" 200 0
+2025-10-18 20:51:07,523 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/configuration_phi3.py HTTP/1.1" 307 0
+2025-10-18 20:51:07,538 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/configuration_phi3.py HTTP/1.1" 200 0
+2025-10-18 20:51:07,745 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-18 20:51:07,752 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/config.json HTTP/1.1" 200 0
+2025-10-18 20:51:07,955 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/tree/main?recursive=True&expand=False HTTP/1.1" 200 2586
+2025-10-18 20:51:08,248 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/tree/main?recursive=True&expand=False HTTP/1.1" 200 2586
+2025-10-18 20:51:08,447 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/preprocessor_config.json HTTP/1.1" 404 0
+2025-10-18 20:51:08,648 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-18 20:51:08,660 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 20:51:08,892 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 20:51:09,193 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-10-18 20:51:09,205 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/generation_config.json HTTP/1.1" 200 0
+2025-10-18 20:51:11,401 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 20:51:11,638 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct HTTP/1.1" 200 5752
+2025-10-18 20:51:12,050 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/tree/main?recursive=False&expand=False HTTP/1.1" 200 2586
+2025-10-18 20:51:12,052 DEBUG Attempting to acquire lock 135457035045456 on /tmp/a627eabaa83ed3227edff322b0fe1464e3dcd15e13efb66360335cb87df4b3bdmicrosoft-Phi-3-mini-4k-instruct.lock
+2025-10-18 20:51:12,052 DEBUG Lock 135457035045456 acquired on /tmp/a627eabaa83ed3227edff322b0fe1464e3dcd15e13efb66360335cb87df4b3bdmicrosoft-Phi-3-mini-4k-instruct.lock
+2025-10-18 20:51:12,264 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/revision/main HTTP/1.1" 200 5752
+2025-10-18 20:51:12,270 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 20:51:12,272 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 20:51:12,423 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2025-10-18 20:51:12,546 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/0a67737cc96d2554230f90338b163bc6380a2a85/model-00001-of-00002.safetensors HTTP/1.1" 302 0
+2025-10-18 20:51:12,549 DEBUG Attempting to acquire lock 135457665864080 on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/b7492726c01287bf6e13c3d74c65ade3d436d50da1cf5bb6925bc962419d6610.lock
+2025-10-18 20:51:12,550 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/0a67737cc96d2554230f90338b163bc6380a2a85/model-00002-of-00002.safetensors HTTP/1.1" 302 0
+2025-10-18 20:51:12,550 DEBUG Lock 135457665864080 acquired on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/b7492726c01287bf6e13c3d74c65ade3d436d50da1cf5bb6925bc962419d6610.lock
+2025-10-18 20:51:12,551 DEBUG Attempting to acquire lock 135457665877776 on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/3f311787aa136e858556caa8543015161edcad85ba81b6a36072443d7fa73c87.lock
+2025-10-18 20:51:12,552 DEBUG Lock 135457665877776 acquired on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/3f311787aa136e858556caa8543015161edcad85ba81b6a36072443d7fa73c87.lock
+2025-10-18 20:51:12,754 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/xet-read-token/0a67737cc96d2554230f90338b163bc6380a2a85 HTTP/1.1" 200 379
+2025-10-18 20:51:12,770 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/xet-read-token/0a67737cc96d2554230f90338b163bc6380a2a85 HTTP/1.1" 200 379
+2025-10-18 20:51:12,808 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 20:52:06,420 DEBUG Attempting to release lock 135457665877776 on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/3f311787aa136e858556caa8543015161edcad85ba81b6a36072443d7fa73c87.lock
+2025-10-18 20:52:06,421 DEBUG Lock 135457665877776 released on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/3f311787aa136e858556caa8543015161edcad85ba81b6a36072443d7fa73c87.lock
+2025-10-18 20:52:09,496 DEBUG Attempting to release lock 135457665864080 on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/b7492726c01287bf6e13c3d74c65ade3d436d50da1cf5bb6925bc962419d6610.lock
+2025-10-18 20:52:09,496 DEBUG Lock 135457665864080 released on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/b7492726c01287bf6e13c3d74c65ade3d436d50da1cf5bb6925bc962419d6610.lock
+2025-10-18 20:52:09,498 DEBUG Attempting to release lock 135457035045456 on /tmp/a627eabaa83ed3227edff322b0fe1464e3dcd15e13efb66360335cb87df4b3bdmicrosoft-Phi-3-mini-4k-instruct.lock
+2025-10-18 20:52:09,498 DEBUG Lock 135457035045456 released on /tmp/a627eabaa83ed3227edff322b0fe1464e3dcd15e13efb66360335cb87df4b3bdmicrosoft-Phi-3-mini-4k-instruct.lock
+2025-10-18 20:52:09,498 DEBUG Attempting to acquire lock 135457667102480 on /tmp/a627eabaa83ed3227edff322b0fe1464e3dcd15e13efb66360335cb87df4b3bdmicrosoft-Phi-3-mini-4k-instruct.lock
+2025-10-18 20:52:09,498 DEBUG Lock 135457667102480 acquired on /tmp/a627eabaa83ed3227edff322b0fe1464e3dcd15e13efb66360335cb87df4b3bdmicrosoft-Phi-3-mini-4k-instruct.lock
+2025-10-18 20:52:09,697 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/model.safetensors.index.json HTTP/1.1" 307 0
+2025-10-18 20:52:09,902 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/model.safetensors.index.json HTTP/1.1" 200 0
+2025-10-18 20:52:09,904 DEBUG Attempting to acquire lock 135460247596880 on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/3aa7bba5cb52d7ea1e71bf8540f70e35e3cf24f7.lock
+2025-10-18 20:52:09,904 DEBUG Lock 135460247596880 acquired on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/3aa7bba5cb52d7ea1e71bf8540f70e35e3cf24f7.lock
+2025-10-18 20:52:10,112 DEBUG https://huggingface.co:443 "GET /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/model.safetensors.index.json HTTP/1.1" 200 None
+2025-10-18 20:52:10,115 DEBUG Attempting to release lock 135460247596880 on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/3aa7bba5cb52d7ea1e71bf8540f70e35e3cf24f7.lock
+2025-10-18 20:52:10,115 DEBUG Lock 135460247596880 released on /home/user24/.cache/huggingface/hub/.locks/models--microsoft--Phi-3-mini-4k-instruct/3aa7bba5cb52d7ea1e71bf8540f70e35e3cf24f7.lock
+2025-10-18 20:52:10,115 DEBUG Attempting to release lock 135457667102480 on /tmp/a627eabaa83ed3227edff322b0fe1464e3dcd15e13efb66360335cb87df4b3bdmicrosoft-Phi-3-mini-4k-instruct.lock
+2025-10-18 20:52:10,115 DEBUG Lock 135457667102480 released on /tmp/a627eabaa83ed3227edff322b0fe1464e3dcd15e13efb66360335cb87df4b3bdmicrosoft-Phi-3-mini-4k-instruct.lock
+2025-10-18 20:52:41,163 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-18 20:52:41,170 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 20:52:41,380 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 20:52:41,972 DEBUG https://huggingface.co:443 "HEAD /microsoft/Phi-3-mini-4k-instruct/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-18 20:52:41,983 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/microsoft/Phi-3-mini-4k-instruct/0a67737cc96d2554230f90338b163bc6380a2a85/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 20:52:42,203 DEBUG https://huggingface.co:443 "GET /api/models/microsoft/Phi-3-mini-4k-instruct/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 20:52:42,487 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-18 20:52:42,499 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/datasets/TIGER-Lab/MMLU-Pro/9126953e3e196ff1073499437322f9e2c51ed79a/README.md HTTP/1.1" 200 0
+2025-10-18 20:52:42,702 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/MMLU-Pro.py HTTP/1.1" 404 0
+2025-10-18 20:52:42,705 DEBUG Starting new HTTPS connection (1): s3.amazonaws.com:443
+2025-10-18 20:52:43,315 DEBUG https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/TIGER-Lab/MMLU-Pro/TIGER-Lab/MMLU-Pro.py HTTP/1.1" 404 0
+2025-10-18 20:52:43,522 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/9126953e3e196ff1073499437322f9e2c51ed79a HTTP/1.1" 200 2323
+2025-10-18 20:52:43,727 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/.huggingface.yaml HTTP/1.1" 404 0
+2025-10-18 20:52:43,730 DEBUG Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+2025-10-18 20:52:44,028 DEBUG https://datasets-server.huggingface.co:443 "GET /info?dataset=TIGER-Lab/MMLU-Pro HTTP/1.1" 200 None
+2025-10-18 20:52:44,233 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/9126953e3e196ff1073499437322f9e2c51ed79a HTTP/1.1" 200 2323
+2025-10-18 20:52:44,452 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/9126953e3e196ff1073499437322f9e2c51ed79a/data?recursive=True&expand=False HTTP/1.1" 200 629
+2025-10-18 20:52:44,667 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/9126953e3e196ff1073499437322f9e2c51ed79a?recursive=False&expand=False HTTP/1.1" 200 492
+2025-10-18 20:52:44,874 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_infos.json HTTP/1.1" 404 0
+2025-10-18 20:52:44,878 DEBUG Attempting to acquire lock 135457036154320 on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 20:52:44,878 DEBUG Lock 135457036154320 acquired on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 20:52:44,878 DEBUG open file: /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_info.json
+2025-10-18 20:52:44,878 DEBUG Attempting to release lock 135457036154320 on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 20:52:44,878 DEBUG Lock 135457036154320 released on /home/user24/.cache/huggingface/datasets/_home_user24_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_9126953e3e196ff1073499437322f9e2c51ed79a.lock
+2025-10-18 20:52:44,901 DEBUG Attempting to acquire lock 135456929518800 on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 20:52:44,901 DEBUG Lock 135456929518800 acquired on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 20:52:44,901 DEBUG open file: /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a/dataset_info.json
+2025-10-18 20:52:44,902 DEBUG Attempting to release lock 135456929518800 on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 20:52:44,902 DEBUG Lock 135456929518800 released on /home/user24/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/9126953e3e196ff1073499437322f9e2c51ed79a_builder.lock
+2025-10-18 20:52:45,810 INFO selected subjects:
+business
+law
+psychology
+biology
+chemistry
+history
+other
+health
+economics
+math
+physics
+computer science
+philosophy
+engineering
+2025-10-18 20:52:45,811 INFO evaluating biology
+2025-10-18 20:54:12,688 INFO 717size batch costing time: 85.13053441047668
+2025-10-18 20:54:15,332 INFO this batch accu is: 0.708507670850767, corr: 508.0, wrong: 209.0
+
+2025-10-18 20:54:15,337 INFO evaluating business
+2025-10-18 20:55:21,941 INFO 789size batch costing time: 65.31075477600098
+2025-10-18 20:55:21,996 INFO this batch accu is: 0.514575411913815, corr: 406.0, wrong: 383.0
+
+2025-10-18 20:55:22,003 INFO evaluating chemistry
+2025-10-18 20:58:45,345 INFO 1132size batch costing time: 200.74982738494873
+2025-10-18 20:58:48,347 INFO this batch accu is: 0.4098939929328622, corr: 464.0, wrong: 668.0
+
+2025-10-18 20:58:48,355 INFO evaluating computer science
+2025-10-18 21:00:00,590 INFO 410size batch costing time: 71.35793781280518
+2025-10-18 21:00:01,939 INFO this batch accu is: 0.4609756097560976, corr: 189.0, wrong: 221.0
+
+2025-10-18 21:00:01,945 INFO evaluating economics

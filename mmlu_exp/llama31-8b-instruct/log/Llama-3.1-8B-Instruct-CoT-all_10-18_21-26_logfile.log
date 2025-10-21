@@ -1,0 +1,37 @@
+2025-10-18 21:26:00,279 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 21:26:00,512 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 21:26:00,728 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 21:26:00,935 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/config.json HTTP/1.1" 200 0
+2025-10-18 21:26:01,146 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B-Instruct/tree/main?recursive=True&expand=False HTTP/1.1" 200 3137
+2025-10-18 21:26:01,359 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B-Instruct/tree/main?recursive=True&expand=False HTTP/1.1" 200 3137
+2025-10-18 21:26:01,571 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/preprocessor_config.json HTTP/1.1" 404 0
+2025-10-18 21:26:01,876 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 21:26:02,084 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B-Instruct/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 21:26:02,671 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-10-18 21:26:04,905 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-10-18 21:26:05,151 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B-Instruct HTTP/1.1" 200 23097
+2025-10-18 21:26:05,370 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B-Instruct/tree/main?recursive=False&expand=False HTTP/1.1" 200 2409
+2025-10-18 21:26:05,372 DEBUG Attempting to acquire lock 123511601153296 on /tmp/c82104a5e9b176598a512e508a12de3ea032caf560035fc1ed26f57478992a60meta-llama-Llama-3.1-8B-Instruct.lock
+2025-10-18 21:26:05,373 DEBUG Lock 123511601153296 acquired on /tmp/c82104a5e9b176598a512e508a12de3ea032caf560035fc1ed26f57478992a60meta-llama-Llama-3.1-8B-Instruct.lock
+2025-10-18 21:26:05,574 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B-Instruct/revision/main HTTP/1.1" 200 23097
+2025-10-18 21:26:05,582 DEBUG Attempting to release lock 123511601153296 on /tmp/c82104a5e9b176598a512e508a12de3ea032caf560035fc1ed26f57478992a60meta-llama-Llama-3.1-8B-Instruct.lock
+2025-10-18 21:26:05,582 DEBUG Lock 123511601153296 released on /tmp/c82104a5e9b176598a512e508a12de3ea032caf560035fc1ed26f57478992a60meta-llama-Llama-3.1-8B-Instruct.lock
+2025-10-18 21:26:05,582 DEBUG Attempting to acquire lock 123511596190992 on /tmp/c82104a5e9b176598a512e508a12de3ea032caf560035fc1ed26f57478992a60meta-llama-Llama-3.1-8B-Instruct.lock
+2025-10-18 21:26:05,583 DEBUG Lock 123511596190992 acquired on /tmp/c82104a5e9b176598a512e508a12de3ea032caf560035fc1ed26f57478992a60meta-llama-Llama-3.1-8B-Instruct.lock
+2025-10-18 21:26:05,788 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/model.safetensors.index.json HTTP/1.1" 200 0
+2025-10-18 21:26:05,789 DEBUG Attempting to release lock 123511596190992 on /tmp/c82104a5e9b176598a512e508a12de3ea032caf560035fc1ed26f57478992a60meta-llama-Llama-3.1-8B-Instruct.lock
+2025-10-18 21:26:05,789 DEBUG Lock 123511596190992 released on /tmp/c82104a5e9b176598a512e508a12de3ea032caf560035fc1ed26f57478992a60meta-llama-Llama-3.1-8B-Instruct.lock
+2025-10-18 21:26:05,912 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2025-10-18 21:26:06,250 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-10-18 21:26:19,395 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 21:26:19,599 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B-Instruct/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 21:26:20,384 DEBUG https://huggingface.co:443 "HEAD /meta-llama/Llama-3.1-8B-Instruct/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-18 21:26:20,597 DEBUG https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.1-8B-Instruct/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-18 21:26:21,244 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-18 21:26:21,252 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/datasets/TIGER-Lab/MMLU-Pro/9126953e3e196ff1073499437322f9e2c51ed79a/README.md HTTP/1.1" 200 0
+2025-10-18 21:26:21,461 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/MMLU-Pro.py HTTP/1.1" 404 0
+2025-10-18 21:26:21,464 DEBUG Starting new HTTPS connection (1): s3.amazonaws.com:443
+2025-10-18 21:26:22,074 DEBUG https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/TIGER-Lab/MMLU-Pro/TIGER-Lab/MMLU-Pro.py HTTP/1.1" 404 0
+2025-10-18 21:26:22,297 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/9126953e3e196ff1073499437322f9e2c51ed79a HTTP/1.1" 200 2323
+2025-10-18 21:26:22,507 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/9126953e3e196ff1073499437322f9e2c51ed79a/.huggingface.yaml HTTP/1.1" 404 0
+2025-10-18 21:26:22,510 DEBUG Starting new HTTPS connection (1): datasets-server.huggingface.co:443
